@@ -42,3 +42,34 @@ J'ai perdu deux jours à suspecter le câblage alors que les compteurs d'erreurs
 ---
 
 **Compétences mobilisées** : gérer le patrimoine informatique ; répondre aux incidents et aux demandes d'assistance.
+
+# Situation B
+
+## Contexte
+
+Le 28 septembre 2026, j’ai été sollicité pour un poste du bureau d’études, un Dell OptiPlex 7090 Tower. Depuis environ quinze jours, il redémarrait tout seul trois ou quatre fois par jour. L’utilisateur perdait son travail à chaque redémarrage.
+
+## Problème constaté
+
+J’ai consulté l’Observateur d’événements et relevé des erreurs Kernel-Power 41. Elles indiquaient des arrêts inattendus, sans suffire à identifier leur cause.
+
+## Pistes examinées
+
+J’ai d’abord envisagé un problème logiciel et installé les mises à jour de Windows. Comme les redémarrages ont continué, cette piste n’a pas été confirmée. J’ai ensuite testé la mémoire vive avec MemTest pendant une nuit : le test a signalé 0 erreur, ce qui m’a conduit à écarter la RAM.
+
+## Inspection du matériel
+
+Avant d’ouvrir le poste, je l’ai éteint, débranché du secteur et attendu quelques minutes. J’ai constaté que l’alimentation était très poussiéreuse et que son ventilateur faisait un bruit inhabituel.
+
+## Mesure et diagnostic
+
+J’ai mesuré la consommation avec une prise wattmétrique. Le poste atteignait 310 W en pointe, alors que l’alimentation était donnée pour 350 W. Cette marge réduite, associée à l’état de l’alimentation, m’a fait suspecter qu’elle était en cause.
+
+## Intervention et résultats
+
+J’ai remplacé l’alimentation par un modèle de 550 W et nettoyé le poste. Depuis l’intervention, aucun redémarrage intempestif n’a été constaté pendant un mois.
+
+## Bilan
+
+C’était la première panne matérielle que j’identifiais seul, et j’étais content d’avoir trouvé l’origine du problème. Pour une prochaine panne de ce type, je vérifierai l’alimentation plus tôt, après les premiers contrôles.
+
